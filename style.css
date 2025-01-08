@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+}
+
+#myDivs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 300px; 
+    height: 300px; 
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 2px solid black;
+    transition: top 0.3s ease, left 0.3s ease;
+}
+
+.z0 {
+    top: 20px;
+    left: 20px;
+    z-index: 0;
+    background-color: red;
+}
+
+.z1 {
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+    background-color: blue;
+}
+
+.z2 {
+    top: 60px;
+    left: 60px;
+    z-index: 2;
+    background-color: green;
+}
+
+.z3 {
+    top: 80px;
+    left: 80px;
+    z-index: 3;
+    background-color: yellow;
+}
